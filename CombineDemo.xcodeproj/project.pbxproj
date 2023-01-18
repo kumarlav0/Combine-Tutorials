@@ -107,17 +107,16 @@
 		041AB6C12975D4E9006BEA60 /* CombineDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04C2AC672978715700494FAF /* ViewModels */,
+				04C2AC662978714100494FAF /* Controllers */,
+				04C2AC652978712D00494FAF /* Helper */,
 				041AB6C22975D4E9006BEA60 /* AppDelegate.swift */,
 				041AB6C42975D4E9006BEA60 /* SceneDelegate.swift */,
-				041AB6C62975D4E9006BEA60 /* LoginViewController.swift */,
 				041AB6C82975D4E9006BEA60 /* Main.storyboard */,
 				041AB6CE2975D4EA006BEA60 /* Assets.xcassets */,
 				041AB6D02975D4EA006BEA60 /* LaunchScreen.storyboard */,
 				041AB6D32975D4EA006BEA60 /* Info.plist */,
 				041AB6CB2975D4E9006BEA60 /* CombineDemo.xcdatamodeld */,
-				0428DC932975DC4100F4DCAA /* Helper+Extension.swift */,
-				0428DC952975DF2600F4DCAA /* LoginViewModel.swift */,
-				0428DC972975EF4E00F4DCAA /* HomeViewController.swift */,
 			);
 			path = CombineDemo;
 			sourceTree = "<group>";
@@ -137,6 +136,31 @@
 				041AB6E82975D4EA006BEA60 /* CombineDemoUITestsLaunchTests.swift */,
 			);
 			path = CombineDemoUITests;
+			sourceTree = "<group>";
+		};
+		04C2AC652978712D00494FAF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0428DC932975DC4100F4DCAA /* Helper+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		04C2AC662978714100494FAF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				041AB6C62975D4E9006BEA60 /* LoginViewController.swift */,
+				0428DC972975EF4E00F4DCAA /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04C2AC672978715700494FAF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0428DC952975DF2600F4DCAA /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
